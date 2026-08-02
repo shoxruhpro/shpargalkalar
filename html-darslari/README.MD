@@ -8,4 +8,6 @@ HTML (HyperText Markup Language) - har qanday web-saytni qurishda ishlatiladigan
 
 Har qanday sahifa DOCTYPE va 2 ta bo'lim bilan boshlanadi: head (meta ma'lumotlar) va body (ko'rinuvchi tarkib).
 
-Davomi bor...
+## 2. [Sarlavhalar va matn](2-matn.html)
+
+Olti darajali sarlavhalar (h1 eng muhimi) hamda abzas va asosiy formatlash teglari
