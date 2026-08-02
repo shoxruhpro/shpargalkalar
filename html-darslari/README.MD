@@ -11,3 +11,5 @@ Har qanday sahifa DOCTYPE va 2 ta bo'lim bilan boshlanadi: head (meta ma'lumotla
 ## 2. [Sarlavhalar va matn](2-matn.html)
 
 Olti darajali sarlavhalar (h1 eng muhimi) hamda abzas va asosiy formatlash teglari
+
+## 3. [Havolalar va rasm](3-havola.html)
