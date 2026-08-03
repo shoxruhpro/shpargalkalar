@@ -1,0 +1,46 @@
+<!-- action — qayerga yuborilishi, method — qanday (get/post) -->
+<form action="/submit" method="post">
+  <!-- label nomni kiritish joyi bilan for=id orqali bog'laydi -->
+  <label for="name">Ism</label>
+  <input
+    type="text"
+    id="name"
+    name="name"
+    placeholder="Ismingizni kiriting"
+    required
+  />
+  <br />
+
+  <!-- input turlari -->
+  <input type="email" name="email" /> <br />
+  <!-- email kiritilganini tekshiradi -->
+  <input type="password" name="pass" /> <br />
+  <!-- maxfiy kiritish -->
+  <input type="number" min="0" max="10" />
+  <!-- chegarali son -->
+  <br />
+  <input type="date" /> <br />
+  <!-- sanani tanlash -->
+  <input type="checkbox" name="agree" /> <br />
+  <!-- galochka -->
+  <input type="radio" name="gender" value="m" />
+  <input type="radio" name="gender" value="f" /> <br />
+  <!-- tanlagich -->
+  <input type="file" /> <br />
+  <!-- fayl yuklash -->
+
+  <!-- Ko'p qatorli kiritish joyi -->
+  <textarea name="msg" rows="4">Odatiy matn</textarea> <br />
+
+  <!-- Ochiluvchi ro'yxat -->
+  <select name="city">
+    <option value="msk">Moskva</option>
+    <option value="spb" selected>Sankt-Peterburg</option>
+  </select>
+
+  <!-- Yuborish tugmasi. Odatiy holatda type="submit" bo'ladi -->
+  <button type="submit">Отправить</button>
+</form>
+
+<!-- Tekshiruv attributlari: required, min/max, maxlength,
+     pattern="shablon" — brauzer yuborishdan oldin tekshiradi. -->
