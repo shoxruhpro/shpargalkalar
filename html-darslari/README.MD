@@ -23,3 +23,14 @@ Forma foydalanuvchi ma'lumotlarini oladi va ularni serverga yuboradi.
 
 ## 7. [Semantika](7-semantika.html)
 Semantika blokning rolini tasniflaydi. Bu ko'p marta div ishlatgan yaxshiroq: SEO va ekranni o'qiydigan qurilmalarga yordam beradi.
+
+## 8. [Media va biriktiruv](8-media.html)
+
+## 9. [Atributlar](9-atribut.html)
+Atributlar ochuvchi tegga yoziladi va unga qo'shimcha o'zgartirishlarni beradi.
+
+## 10. [Meta teglar va SEO](10-meta.html)
+head tarkibi sahifa qidiruv tizimlarida va ijtimoiy tarmoqlarda qanday ko'rinishini boshqaradi.
+
+## 11. [Maxsus belgilar va ommaboplik](11-ommaboplik.html)
+Maxsus belgilar entity-kodlar yordamida ko'rsatiladi. Ommaboplik (a11y) saytni barcha uchun qulay qiladi.
