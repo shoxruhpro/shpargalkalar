@@ -16,5 +16,10 @@ Olti darajali sarlavhalar (h1 eng muhimi) hamda abzas va asosiy formatlash tegla
 
 ## 4. [Ro'yxatlar](4-listlar.html)
 
-## 5. [Formalar](6-forma.html)
+## 5. [Jadvallar](5-jadval.html)
+
+## 6. [Formalar](6-forma.html)
 Forma foydalanuvchi ma'lumotlarini oladi va ularni serverga yuboradi.
+
+## 7. [Semantika](7-semantika.html)
+Semantika blokning rolini tasniflaydi. Bu ko'p marta div ishlatgan yaxshiroq: SEO va ekranni o'qiydigan qurilmalarga yordam beradi.
