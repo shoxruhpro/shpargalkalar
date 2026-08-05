@@ -1,0 +1,13 @@
+/* Qoida tuzilishi: tanlovchi { xossa: qiymat; xossa: qiymat; } */
+
+h1 {
+  color: red; /* color xossa, red qiymat */
+  font-size: 32px; /* har bir xossa-qiymat ; bilan tugaydi */
+}
+
+/* Bir nechta tanlovchilarni vergul bilan ajratib umumiy stillar berish mumkin: */
+h1,
+h2,
+h3 {
+  font-family: sans-serif;
+}

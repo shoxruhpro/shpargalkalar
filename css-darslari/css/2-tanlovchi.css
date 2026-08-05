@@ -1,0 +1,137 @@
+/* Teg bo'yicha */
+p {
+  color: #333;
+}
+
+/* class bo'yicha — HTMLdagi attributi class="box" bo'lgan element */
+.box {
+  padding: 10px;
+}
+
+/* id bo'yicha — attributi id="main" bo'lgan element (id sahifada takrorlanmas bo'ladi) */
+#main {
+  width: 800px;
+}
+
+/* Attribut bo'yicha */
+
+/* target attributi bor bo'lgan */
+a[target] {
+  color: green;
+}
+
+/* aniq qiymatga teng bo'lgan */
+input[type="text"] {
+  border: 1px solid;
+}
+
+/* "https" bilan boshlangan */
+a[href^="https"] {
+  color: teal;
+}
+
+/* ".pdf" bilan tugaydigan */
+a[href$=".pdf"] {
+  color: red;
+}
+
+/* Universal tanlovchi — hamma elementlar */
+* {
+  margin: 0;
+}
+
+/* Kombinatorlar */
+
+/* <div> ichida har qanday chuqurlikda joylashgan <p> */
+div p {
+  color: blue;
+}
+
+/* <div> uchun to'g'ridan-to'g'ri voris bo'lgan <p> */
+div > p {
+  color: navy;
+}
+
+/* <h2> dan bitta keyingi <p> (qo'shni) */
+h2 + p {
+  margin-top: 0;
+}
+
+/* <h2> dan keyin kelgan hamma <p> (barcha tug'ishganlar) */
+h2 ~ p {
+  color: gray;
+}
+
+/* Soxta-classlar — joylashuv/holat */
+
+/* sichqonchani olib borilishi */
+a:hover {
+  color: orange;
+}
+
+a:visited {
+  color: purple;
+}
+/* avval bosilgan havola */
+
+/* fokusdagi element */
+input:focus {
+  outline: 2px solid;
+}
+
+/* imkoniyati cheklangan */
+button:disabled {
+  opacity: 0.5;
+}
+
+/* birinchi farzand */
+li:first-child {
+  font-weight: bold;
+}
+
+/* oxirgi farzand */
+li:last-child {
+  border: none;
+} 
+
+/* ikkinchi farzand */
+li:nth-child(2) {
+  color: red;
+}
+
+/* toqlari */
+li:nth-child(odd) {
+  background: #eee;
+}
+
+/* .skip dan tashqari barcha <p> elementlar */
+p:not(.skip) {
+  color: black;
+}
+
+/* Soxta-elementlar — element qismini yaratadi/stil beradi (ikkita ikki-nuqta ::) */
+
+/* birinchi qator */
+p::first-line {
+  font-weight: bold;
+}
+
+/* birinchi harf */
+p::first-letter {
+  font-size: 2em;
+}
+
+/* elementdan KEYIN joylanadi */
+.box::before {
+  content: "→ ";
+}
+
+/* elementdan OLDIN joylanadi */
+.box::after {
+  content: " ✓";
+}
+
+/* tanlangan matn */
+::selection {
+  background: yellow;
+}
