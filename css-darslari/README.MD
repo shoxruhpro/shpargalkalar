@@ -9,3 +9,4 @@ Til imkoniyatlari to'liq shu yerda ko'rsatilgan, tushuntirishlar kommentlar ichi
 
 Qoida tanlovchi va e'lon qilish blokidan tashkil topadi.
 
+# 2. [Tanlovchi](2-tanlovchi.html)
